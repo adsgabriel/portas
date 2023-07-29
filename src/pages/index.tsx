@@ -30,7 +30,7 @@ export default function Formulario() {
             onChange={novaPortaComPresente => setComPresente(novaPortaComPresente)} />
         </Cartao>
         <Cartao bgcolor="#28a085">
-          <Link href={`/jogo/${qtdePortas}/${comPresente}`} className={styles.link}>
+          <Link href={`/jogo/${qtdePortas}/${comPresente}`} className={styles.link} passHref>
             <h2>Iniciar</h2>
           </Link>
         </Cartao>
